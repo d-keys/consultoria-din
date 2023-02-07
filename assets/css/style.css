@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+	position: relative;
+	display: block;
+}
+
+body {
+	background-color: #111111;
+	color: #dddddd;
+}
+
+#video-back-1 {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#video-back-2 {
+	position: relative;
+	right: 0;
+	bottom: 1000;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#video-back-3 {
+	position: relative;
+	right: 0;
+	bottom: 2000;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#video-back-4 {
+	position: relative;
+	right: 0;
+	bottom: 3000;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#video-back-5 {
+	position: relative;
+	right: 0;
+	bottom: 4000;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+main  {
+	background: rgba(black, 0.70);
+	color: white;
+	position: relative;
+	padding: 100px;
+}
