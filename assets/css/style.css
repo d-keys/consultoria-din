@@ -9,54 +9,45 @@
 	display: block;
 }
 
-body {
-	background-color: #111111;
-	color: #dddddd;
-}
-
 #video-back-1 {
+	z-index: -100;
 	position: relative;
 	right: 0;
-	bottom: 0;
 	min-width: 100vw;
 	min-height: 100vh;
 }
+.texto-vid1 {
+	z-index: 10;
+}
 
 #video-back-2 {
+	z-index: -100;
 	position: relative;
 	right: 0;
-	bottom: 1000;
 	min-width: 100vw;
 	min-height: 100vh;
 }
 
 #video-back-3 {
+	z-index: -100;
 	position: relative;
 	right: 0;
-	bottom: 2000;
 	min-width: 100vw;
 	min-height: 100vh;
 }
 
 #video-back-4 {
+	z-index: -100;
 	position: relative;
 	right: 0;
-	bottom: 3000;
 	min-width: 100vw;
 	min-height: 100vh;
 }
 
 #video-back-5 {
+	z-index: -100;
 	position: relative;
 	right: 0;
-	bottom: 4000;
 	min-width: 100vw;
 	min-height: 100vh;
-}
-
-main  {
-	background: rgba(black, 0.70);
-	color: white;
-	position: relative;
-	padding: 100px;
 }
