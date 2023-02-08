@@ -18,40 +18,40 @@ body {
 	position: relative;
 	right: 0;
 	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 
 #video-back-2 {
 	position: relative;
 	right: 0;
 	bottom: 1000;
-	min-width: 100%;
-	min-height: 100%;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 
 #video-back-3 {
 	position: relative;
 	right: 0;
 	bottom: 2000;
-	min-width: 100%;
-	min-height: 100%;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 
 #video-back-4 {
 	position: relative;
 	right: 0;
 	bottom: 3000;
-	min-width: 100%;
-	min-height: 100%;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 
 #video-back-5 {
 	position: relative;
 	right: 0;
 	bottom: 4000;
-	min-width: 100%;
-	min-height: 100%;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 
 main  {
