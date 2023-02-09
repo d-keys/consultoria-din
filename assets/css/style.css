@@ -10,20 +10,22 @@
 	/*background-color: #00000091;*/
 }
 
-.blur {
-	filter: blur(7px);	
-}
-
-.unblur:hover + .blur {
-	filter: blur(0px);
-}
-
 .videos {
 	z-index: -100;
 	position: relative;
 	min-width: 100vw;
 	min-height: 100vh;
 /*	max-height: clamp(400px, 50vh, 600px);*/
+}
+
+.blur {
+	filter: alpha(opacity = 0.7);
+    filter: blur(20px);
+}
+
+.blur:hover {
+	filter: alpha(opacity = 1);
+    filter: blur(0px);
 }
 
 footer {
