@@ -18,32 +18,28 @@
 }
 
 .blur {
-	filter: alpha(opacity = 0.7);
-	filter: blur(20px);
+	filter: alpha(opacity = 0.2);
+	filter: blur(25px);
 }
-
 .blur:hover {
 	filter: alpha(opacity = 1);
 	filter: blur(0px);
-	animation-name: emanescer;
+	animation-name: esmaescer;
 	animation-duration: 1s;
 }
 
-@keyframes emanescer {
+@keyframes esmaescer {
 	0% {filter: blur(20px);}
-	25% {filter: blur(15px);}
-	50% {filter: blur(10px);}
-	75% {filter: blur(5px);}
 	100% {filter: blur(0px);}
 }
 
 
 footer {
 	color: #eeeeee;
-	background-color: #111111;
 	margin: auto;
 	display: flex;
-	line-height: 50px;
+	padding-left: 25px;
+	line-height: 25px;
 	width: 100%;
 	text-align: left;
 }
